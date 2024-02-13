@@ -73,6 +73,7 @@ header img {
 
     width: calc(100% / 3 - 20px);
     cursor: pointer;
+    padding-bottom: 30px;
 }
 
 .card-image {
@@ -88,18 +89,22 @@ body img {
     gap: 5px;
     align-items: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 50px;
     left: 0px;
 }
 
 .discount {
     background-color: var(--color-discount);
     padding: 5px;
+    font-size: small;
+    font-weight: 700;
 }
 
 .sustain {
     background-color: var(--color-sustainability);
     padding: 5px;
+    font-size: small;
+    font-weight: 700;
 }
 
 .hearth {
@@ -127,9 +132,6 @@ body img {
 
 .card:hover .secondary-image {
     display: block;
-}
-.small {
-    font-size: smaller;
 }
 /* footer  */
 footer {
@@ -173,4 +175,8 @@ footer i{
 .red {
     color: var(--color-discount);
     font-weight: 800;
+}
+
+.red, .small, s{
+    font-size: small;
 }
